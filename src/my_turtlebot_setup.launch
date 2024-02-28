@@ -1,0 +1,17 @@
+<!-- my_turtlebot_setup.launch -->
+
+<launch>
+
+  <!-- Launch turtlebot_bringup -->
+  <include file="$(find turtlebot_bringup)/launch/minimal.launch" />
+
+  <!-- Set TURTLEBOT_MAP_FILE -->
+  <env name="TURTLEBOT_MAP_FILE" value="~/gmapping_01.yaml"/>
+
+  <!-- Launch amcl_demo -->
+  <include file="$(find turtlebot_navigation)/launch/amcl_demo.launch" />
+
+  <!-- Launch RViz -->
+  <node pkg="turtlebot_rviz_launchers" type="view_navigation.launch" name="view_navigation" output="screen"/>
+
+</launch>

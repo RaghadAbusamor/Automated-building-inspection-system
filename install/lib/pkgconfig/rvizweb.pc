@@ -1,0 +1,8 @@
+prefix=/home/raghad/turtlebot2_ws/install
+
+Name: rvizweb
+Description: Description of rvizweb
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

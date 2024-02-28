@@ -1,0 +1,4 @@
+{
+    "python.analysis.autoImportCompletions": true,
+    "cmake.sourceDirectory": "/home/raghad/turtlebot2_ws/src/my_kinect_stream"
+}

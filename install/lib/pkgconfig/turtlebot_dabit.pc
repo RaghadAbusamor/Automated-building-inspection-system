@@ -1,0 +1,8 @@
+prefix=/home/raghad/turtlebot2_ws/install
+
+Name: turtlebot_dabit
+Description: Description of turtlebot_dabit
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

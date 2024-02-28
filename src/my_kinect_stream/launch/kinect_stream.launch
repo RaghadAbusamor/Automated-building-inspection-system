@@ -1,0 +1,4 @@
+<launch>
+  <!-- <node pkg="openni_launch" type="openni_launch" name="openni_launch"/> -->
+  <node pkg="my_kinect_stream" type="kinect_stream.py" name="kinect_stream_node" output="screen"/>
+</launch>

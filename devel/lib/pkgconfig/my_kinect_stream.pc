@@ -1,0 +1,8 @@
+prefix=/home/raghad/turtlebot2_ws/devel
+
+Name: my_kinect_stream
+Description: Description of my_kinect_stream
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
